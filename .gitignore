@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+# Caches
+.cache/
+scikit_learn_data/
+.ipynb_checkpoints/
+.DS_Store
+# NOTE: models/ and outputs/ are intentionally committed so the repo is demoable without retraining.
