@@ -1,0 +1,54 @@
+Loading MNIST ...
+Train: (60000, 784), Test: (10000, 784)
+Iteration 1, loss = 0.27965032
+Validation score: 0.957667
+Iteration 2, loss = 0.10757168
+Validation score: 0.968167
+Iteration 3, loss = 0.07075195
+Validation score: 0.969167
+Iteration 4, loss = 0.05147183
+Validation score: 0.971833
+Iteration 5, loss = 0.03747357
+Validation score: 0.973167
+Iteration 6, loss = 0.02651282
+Validation score: 0.969167
+Iteration 7, loss = 0.02374095
+Validation score: 0.977333
+Iteration 8, loss = 0.01685700
+Validation score: 0.978167
+Iteration 9, loss = 0.01538315
+Validation score: 0.973667
+Iteration 10, loss = 0.01503893
+Validation score: 0.974333
+Iteration 11, loss = 0.01306745
+Validation score: 0.976667
+Iteration 12, loss = 0.01135354
+Validation score: 0.977500
+Iteration 13, loss = 0.00804621
+Validation score: 0.975167
+Iteration 14, loss = 0.01216644
+Validation score: 0.977333
+Validation score did not improve more than tol=0.000100 for 5 consecutive epochs. Stopping.
+
+Training time: 19.9s
+Train accuracy: 0.9940
+Test accuracy:  0.9773
+              precision    recall  f1-score   support
+
+           0     0.9898    0.9888    0.9893       980
+           1     0.9903    0.9921    0.9912      1135
+           2     0.9786    0.9748    0.9767      1032
+           3     0.9769    0.9634    0.9701      1010
+           4     0.9864    0.9613    0.9737       982
+           5     0.9886    0.9686    0.9785       892
+           6     0.9803    0.9864    0.9834       958
+           7     0.9684    0.9835    0.9759      1028
+           8     0.9636    0.9784    0.9710       974
+           9     0.9516    0.9732    0.9623      1009
+
+    accuracy                         0.9773     10000
+   macro avg     0.9774    0.9771    0.9772     10000
+weighted avg     0.9774    0.9773    0.9773     10000
+
+Saved model -> /workspace/digit-recognition/models/digit_model.joblib
+Saved plots and metrics -> /workspace/digit-recognition/outputs
